@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+/* estilizando o body */
+
+/* colocando as imagens do fundo do header */
+
+.imagem-fundo {
+    position: relative;
+    max-width: 90%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+.imagem-logo {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+
+}
