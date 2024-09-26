@@ -30,9 +30,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
-    padding: 1rem;
-    height: 20rem;
+    height: 30rem;
     justify-content: space-between;
 }
 
@@ -48,26 +46,94 @@ footer{
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid gray;
-    padding: 0.8rem;
+    padding: 20px;
+    position: relative;
+    cursor: pointer;
 }
+
+.pergunta1::after{
+    content: "Uma plataforma de vendas onlne";
+    position: absolute;
+    bottom: -1px;
+    background-color: gray;
+    color: white;
+    padding: 5px;
+    opacity: 0;
+}
+
+.pergunta1:hover::after{
+    opacity: 1;
+}
+
 .pergunta2{
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid gray;
-    padding: 0.8rem;
+    padding: 35px;
+    position: relative;
+    cursor: pointer;
 }
+
+.pergunta2::after{
+    content: "Uma plataforma de vendas onlne";
+    position: absolute;
+    bottom: -1px;
+    background-color: gray;
+    color: white;
+    padding: 5px;
+    opacity: 0;
+}
+
+.pergunta2:hover::after{
+    opacity: 1;
+}
+
 .pergunta3{
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid gray;
-    padding: 0.8rem;
+    padding: 35px;
+    position: relative;
+    cursor: pointer;
 }
+
+.pergunta3::after{
+    content: "Uma plataforma de vendas onlne";
+    position: absolute;
+    bottom: -1px;
+    background-color: gray;
+    color: white;
+    padding: 5px;
+    opacity: 0;
+}
+
+.pergunta3:hover::after{
+    opacity: 1;
+}
+
 .pergunta4{
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid gray;
-    padding: 0.8rem;
+    padding: 35px;
+    position: relative;
+    cursor: pointer;
 }
+
+.pergunta4::after{
+    content: "Uma plataforma de vendas onlne";
+    position: absolute;
+    bottom: -1px;
+    background-color: gray;
+    color: white;
+    padding: 5px;
+    opacity: 0;
+}
+
+.pergunta4:hover::after{
+    opacity: 1;
+}
+
 
 .perguntas div a{
     text-decoration: none;
@@ -75,7 +141,7 @@ footer{
 
 .link-final{
     gap: 2rem;
-    align-self: end;
+    /* align- */
 }
 
 .link-final a{
