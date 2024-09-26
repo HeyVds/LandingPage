@@ -1,0 +1,84 @@
+
+
+.mkt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.mkt h2{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.mkt p{
+    font-size: 0.8rem;
+    /* color: gray; */
+}
+
+.mkt a{
+    text-decoration: none;
+    background-color: #008060;
+    color: whitesmoke;
+    padding: 0.7rem;
+    border-radius: 4px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    height: 20rem;
+    justify-content: space-between;
+}
+
+.perguntas{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 1rem;
+}
+
+.pergunta1{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding: 0.8rem;
+}
+.pergunta2{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding: 0.8rem;
+}
+.pergunta3{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding: 0.8rem;
+}
+.pergunta4{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding: 0.8rem;
+}
+
+.perguntas div a{
+    text-decoration: none;
+}
+
+.link-final{
+    gap: 2rem;
+    align-self: end;
+}
+
+.link-final a{
+    text-decoration: none;
+    color: #008060;
+}
