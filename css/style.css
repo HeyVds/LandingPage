@@ -4,3 +4,168 @@
 
 
 /* Victor */
+.mkt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 4rem;
+}
+
+.mkt h2{
+    text-align: center;
+    font-size: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--cor-03);
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+
+.mkt p{
+    font-size: 0.8rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--cor-02);
+    margin-bottom: 2rem;
+}
+
+.mkt a{
+    text-decoration: none;
+    background-color: var(--cor-00);
+    color: whitesmoke;
+    padding: 0.7rem;
+    border-radius: 4px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 23rem;
+    justify-content: space-between;
+}
+
+.perguntas{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 0.5rem;
+}
+
+.perguntas h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--cor-00);
+}
+
+.perguntas p{
+    font-family: Fredoka;
+}
+
+.pergunta1{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.pergunta1::after{
+    content: "Shopify is an e-commerce platform.";
+    position: absolute;
+    bottom: -1px;
+    background-color: gray;
+    color: white;
+    padding: 2px;
+    opacity: 0;
+}
+
+.pergunta1:hover::after{
+    opacity: 1;
+}
+
+.pergunta2{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.pergunta2::after{
+    content: "Shopify offers several pricing plans starting at $39/month.";
+    position: absolute;
+    bottom: -1px;
+    background-color: gray;
+    color: white;
+    padding: 2px;
+    opacity: 0;
+}
+
+.pergunta2:hover::after{
+    opacity: 1;
+}
+
+.pergunta3{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.pergunta3::after{
+    content: "Yes, you can use your own domain name with Shopify!";
+    position: absolute;
+    bottom: -1px;
+    background-color: gray;
+    color: white;
+    padding: 2px;
+    opacity: 0;
+}
+
+.pergunta3:hover::after{
+    opacity: 1;
+}
+
+.pergunta4{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.pergunta4::after{
+    content: "No, you don't need to be a designer or developer to use Shopify.";
+    position: absolute;
+    bottom: -1px;
+    background-color: gray;
+    color: white;
+    padding: 2px;
+    opacity: 0;
+}
+
+.pergunta4:hover::after{
+    opacity: 1;
+}
+
+.perguntas div a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link-final{
+    display: flex;
+    gap: 1rem;
+}
+
+.link-final a{
+    text-decoration: none;
+    color: var(--cor-00);
+    font-family: Fredoka;
+}
