@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap'); /* perguntas p */
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap'); /* link-final */
+
+:root{
+    --cor-00: #058364; /* Principal */
+    --cor-01: #ffffff; /* Texto */
+    --cor-02: rgb(120, 114, 114); /* Texto autor*/
+    --cor-03: #162529; /* botao☻ */
+}
