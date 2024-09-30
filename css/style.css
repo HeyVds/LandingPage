@@ -44,11 +44,11 @@ header {
     top: 16%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 40%;
+    width: 45%;
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: white;
     font-family: Fredoka;
 
@@ -128,18 +128,29 @@ input {
 }
 
 .info {
-    width: 50%;
+    width: 60%;
     height: auto;
     display: flex;
     position: relative;
     flex-direction: row;
-    gap: 4px;
-    justify-content: center;
+    gap: 3rem;
+    align-items: center;
     margin: 0 auto;
     margin-top: 5%;
 }
 
-.imagemdoartigo {   
+.info article h4{
+    font-weight: bold;
+    font-family: roboto;
+    font-size: 1.2rem;
+    margin-top: 3px;
+}
+
+.info article p{
+    font-family: roboto;
+    margin-top: 0.5rem;
+}
+    .imagemdoartigo {   
     width: 10%;
     height: auto;
 }
@@ -165,8 +176,6 @@ input {
     margin-top: 5%;
     padding-top: 2%;
     padding-bottom: 2%;
-
-
 }
 
 .logo1 {
