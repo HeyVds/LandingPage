@@ -3,7 +3,6 @@ header {
     height: auto;
     display: flex;
     justify-content: center;
-    /* border: 1px solid black; */
     align-items: center;
     flex-direction: column;
 
@@ -12,7 +11,6 @@ header {
 .imagem-fundo img {
     position: relative;
     max-width: 80%;
-    /* border: 1px solid black; */
     height: auto;
     overflow: auto;
     object-fit: cover;
@@ -22,14 +20,12 @@ header {
 .imagem-fundo {
     position: relative;
     max-width: 80%;
-    /* border: 1px solid black; */
     background-attachment: fixed;
     height: auto;
     
 }
 
 .imagem-logo {
-    /* border: 1px solid black; */
     position: absolute;
     top: 6%;
     left: 50%;
@@ -39,7 +35,6 @@ header {
 }
 
 .imagem-fundo h1 {
-    /* border: 1px solid black; */
     position: absolute;
     top: 16%;
     left: 50%;
@@ -55,7 +50,6 @@ header {
 }
 
 .subtitulo {
-    /* border: 1px solid black; */
     position: absolute;
     top: 27%;
     left: 50%;
@@ -67,11 +61,9 @@ header {
     font-size: 125%;
     color: white;
     font-family: Fredoka;
-
 }
 
 form {
-    /* border: 1px solid black; */
     position: absolute;
     top: 40%;
     left: 50%;
@@ -164,8 +156,8 @@ input {
 
 
 .logos {
-    border-bottom: 1px solid gray;
-    border-top: 1px solid gray;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.411);
+    border-top: 1px solid rgba(128, 128, 128, 0.411);
     width: 50%;
     height: auto;
     margin: 0 auto;
@@ -248,10 +240,14 @@ footer{
     font-family: Fredoka;
 }
 
+.perguntas a{
+    color: black;
+}
+
 .pergunta1{
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.459);
     padding: 20px;
     position: relative;
     cursor: pointer;
@@ -274,7 +270,7 @@ footer{
 .pergunta2{
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.459);
     padding: 20px;
     position: relative;
     cursor: pointer;
@@ -297,7 +293,7 @@ footer{
 .pergunta3{
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.459);
     padding: 20px;
     position: relative;
     cursor: pointer;
@@ -320,7 +316,7 @@ footer{
 .pergunta4{
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.459);
     padding: 20px;
     position: relative;
     cursor: pointer;
